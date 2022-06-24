@@ -318,21 +318,21 @@
       <div class="wrapper">
         <h2 id="location" class="section-heading">Lokalizacja</h2>
         <div class="location__boxes">
-          <div class="location__map" id="map"></div>
+          <div class="location__map" id="map">  <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJB1MVh0K1G0cRLi2BZoTHyeY&key=AIzaSyDT2Xh9KJtzBcaLk7XDuE1apyqbmvAfbiY"></iframe></div>
           <div class="location__info">
             <div class="location__contact">
               <h3 class="location__title">gdzie nas znajdziesz?</h3>
               <p><i class="fas fa-map-marker-alt"></i> Butik Irena C.H. Teofil</p>
               <p> ul. Aleksandrowska 38</p>
               <p>91-151 Łódź, poziom -1</p>
-              <p><i class="fas fa-phone-alt"></i> +48 604 575 556</p>
+              <p><i class="fas fa-phone-alt"></i> +48 666 555 222</p>
             </div>
             <div class="location__newsletter">
               <h3 class="location__title">Chcesz być na bieżąco?</h3>
               <p>Zapisz się do newslettera!</p>
               <div class="location__newsletter-box"><input class="location__newsletter-email" type="email"
                   placeholder="wpisz adres e-mail...">
-                <button class="location__newsletter-btn btn-special-animation">zapisz się</button>
+                <button onClick="window.location.reload()" class="location__newsletter-btn btn-special-animation">zapisz się</button>
               </div>
 
             </div>
@@ -367,7 +367,7 @@
               <div class="reviews__box-quote"><i class="fas fa-quote-right"></i> </div>
               <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, debitis.
                 Vel numquam necessitatibus ex eos voluptates omnis ipsum! Sunt, perspiciatis.</p>
-              <strong>Anna Nowak</strong>
+              <strong>Jan Kowalski</strong>
             </div>
 
           </div>
@@ -380,7 +380,7 @@
               <div class="reviews__box-quote"><i class="fas fa-quote-right"></i> </div>
               <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, debitis.
                 Vel numquam necessitatibus ex eos voluptates omnis ipsum! Sunt, perspiciatis.</p>
-              <strong>Agnieszka Wiśniewska</strong>
+              <strong>Jan Kowalski</strong>
             </div>
           </div>
         </div>
@@ -394,8 +394,8 @@
         <div class="contact__general-boxes">
           <div class="contact__general-box">
             <p>Irena Żmudzka</p>
-            <p><i class="fas fa-phone-alt"></i> +48 604 575 556</p>
-            <p><i class="far fa-envelope"></i> paveri.paveri@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> +48 666 555 222</p>
+            <p><i class="far fa-envelope"></i> sklep@butik-irena.pl</p>
             <p>zachęcamy do kontaktu przez Messenger</p>
             <a target="_blank" href="https://www.facebook.com/butikirena"><i class="fab fa-facebook-messenger"></i></a>
           </div>
@@ -455,20 +455,17 @@
             <li class="footer__box-list-item">P.H.U. Paveri</li>
             <li class="footer__box-list-item">ul. Aleksandrowska 38</li>
             <li class="footer__box-list-item">Poziom -1, 91-151 Łódź</li>
-            <li class="footer__box-list-item">NIP 845170914</li>
+            <li class="footer__box-list-item">NIP 123456789</li>
           </ul>
         </div>
       </div>
       <hr>
     </div>
-    <p class="footer__bottom-text">Butik Irena &copy; <span class="footer__year"></span> Wszelkie prawa zastrzeżone</p>
+    <p class="footer__bottom-text">Butik Irena &copy; <span class="footer__year"></span></p>
   </footer>
 
 
 
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT2Xh9KJtzBcaLk7XDuE1apyqbmvAfbiY&callback=initMap&libraries=&v=weekly"
-    async></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="./js/slick.js"></script>
   <script src="./js/script.js"></script>

@@ -1144,11 +1144,11 @@ body {
   }
   .location__map {
     height: 350px;
-    width: 100%;
+    width: 50%;
   }
   .location__info {
     height: 350px;
-    width: 100%;
+    width: 50%;
   }
   .location__contact p:last-child {
     display: block;
@@ -1223,12 +1223,10 @@ body {
   }
   .location__map {
     height: 450px;
-    width: 100%;
   }
   .location__info {
     padding: 0 60px;
     height: 450px;
-    width: 100%;
   }
   .location__contact p:last-child {
     display: block;
