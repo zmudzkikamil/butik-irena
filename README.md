@@ -4,6 +4,7 @@
 This website was created for my close family member, it requires some changes before going live.<br>
 By creating Butik Irena I've learned SASS, BEM, slick library and basics of JavaScript.</p>
 
+
 ![image](https://github.com/user-attachments/assets/a1f77c39-536b-4d70-b9b7-5b2195acb504)
 
 ![image](https://github.com/user-attachments/assets/99e105ab-1487-4292-9a16-776853916dde)
